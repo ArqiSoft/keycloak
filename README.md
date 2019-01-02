@@ -19,6 +19,15 @@ $ docker build --tag keycloak-test .
 $ docker run --rm -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin -p 8080:8080 keycloak-test
 ```
 
+## Run in docker compose
+In order to run **Leanda** project locally you need to configure **keycloak** host on your local machine
+#### In Windows
+Edit *c:\Windows\System32\Drivers\etc\hosts* file and add
+```
+127.0.0.1 keycloak
+```
+#### In Linux
+
 ## Links
 [Keycloak github](https://github.com/keycloak/keycloak)
 
