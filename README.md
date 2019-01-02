@@ -26,6 +26,8 @@ Edit *c:\Windows\System32\Drivers\etc\hosts* file and add
 ```
 127.0.0.1 keycloak
 ```
+so you can acess Keycloak using the URL http://keycloak:8080
+
 #### In Linux
 
 ## Links
