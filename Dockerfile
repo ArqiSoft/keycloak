@@ -1,6 +1,6 @@
 FROM jboss/keycloak:4.8.3.Final
 
-ENV DB_VENDOR POSTGRES
+#ENV DB_VENDOR POSTGRES
 
 COPY ./themes/OSDR /opt/jboss/keycloak/themes/OSDR
 
