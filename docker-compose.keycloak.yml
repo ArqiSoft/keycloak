@@ -40,12 +40,12 @@ services:
         - ./certs:/etc/x509/https
         networks:
         - osdr-net-ext
-        depends_on:
-        - postgres
+#        depends_on:
+#        - postgres
 
 volumes:
     data-keycloak:
-    data-pstgresql:
+#    data-pstgresql:
 
 networks:
     osdr-net-ext:
