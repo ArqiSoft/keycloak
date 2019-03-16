@@ -36,6 +36,7 @@ services:
         - '18443:8443'
         volumes:
         - data-keycloak:/data
+        - ./certs:/etc/x509/https
         networks:
         - osdr-net-ext
         depends_on:
