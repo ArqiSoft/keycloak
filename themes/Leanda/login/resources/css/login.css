@@ -1,0 +1,30 @@
+body {
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    background: url('../img/osdr-background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#kc-background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+#kc-container {
+    position: relative;
+}
+
+#kc-form-wrapper {
+    height: 100vh;
+}
+
+.kc-logo {
+    width: 100px;
+    height: auto;
+}
+
+.kc-logo .responsive-img {
+    width: 100px;
+}
