@@ -17,6 +17,9 @@ After image up it has
 - client - leanda-angular
 - keycloak client has settings for connecting applications by oidc protocol
 
+**WARNING** Default admin logins and passwords for Keycloak and Postrges are placed in ./.ENV file.
+It is HIGHLY recommended to change them before deploying into real environment.
+
 ## To rum docker image standalone, just for test and experiments
 
 NOTE: before run image standalone comment ENV DB_VENDOR POSTGRES
