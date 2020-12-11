@@ -1,6 +1,6 @@
 # Keycloak repository
 
-[![Build Status](https://travis-ci.org/ArqiSoft/keycloak.svg?branch=master)](https://travis-ci.org/ArqiSoft/keycloak)
+[![Build Status](https://travis-ci.com/ArqiSoft/keycloak.svg?branch=master)](https://travis-ci.com/ArqiSoft/keycloak)
 
 It contains Leanda docker image and composes for environments: dev, test, uat, prod
 
